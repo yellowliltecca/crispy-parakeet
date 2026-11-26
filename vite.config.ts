@@ -6,6 +6,8 @@ import {defineConfig} from 'vite';
 
 export default defineConfig(() => {
   return {
+    // Use the repository subpath on GitHub Pages, but keep the root path locally.
+    base: process.env.GITHUB_ACTIONS === 'true' ? '/crispy-parakeet/' : '/',
     plugins: [
       react(),
       tailwindcss(),
