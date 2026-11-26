@@ -1,0 +1,6 @@
+{
+  "name": "Maison Véra — AW26 Runway",
+  "description": "Interactive shoppable runway lookbook for Maison Véra Autumn/Winter 2026 featuring pin-mapped silhouettes, inline and mobile sheet size pickers, and atelier bag checkout.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
