@@ -26,6 +26,8 @@ export interface RunwayLook {
   items: GarmentItem[];
 }
 
+const asset = (path: string) => `${import.meta.env.BASE_URL}${path}`;
+
 export const RUNWAY_LOOKS: RunwayLook[] = [
   {
     id: 'look-01',
@@ -33,8 +35,8 @@ export const RUNWAY_LOOKS: RunwayLook[] = [
     title: 'Монолитный крой',
     subtitle: 'Структурированная шерсть вирджин в паре с текучей графитовой драпировкой.',
     silhouetteNote: 'Открывающий выход · Чёткая линия плеча, удлинённые двубортные лацканы.',
-    image: '/src/assets/images/runway_look_01_overcoat_1795548663096.jpg',
-    probeImage: '/src/assets/images/runway_look_01_overcoat_1795548663096.jpg',
+    image: asset('src/assets/images/runway_look_01_overcoat_1795548663096.jpg'),
+    probeImage: asset('src/assets/images/runway_look_01_overcoat_1795548663096.jpg'),
     alt: 'Образ 01: Двубортное антрацитовое пальто из шерсти поверх кашемировой водолазки оттенка слоновой кости и широких графитовых брюк.',
     items: [
       {
@@ -143,8 +145,8 @@ export const RUNWAY_LOOKS: RunwayLook[] = [
     title: 'Технический габардин',
     subtitle: 'Водоотталкивающий тренч, уравновешенный плотным жилетом из мериноса.',
     silhouetteNote: 'Выход 02 · Пропорция с отлетной кокеткой, поясом и мягкой фланелью.',
-    image: '/src/assets/images/runway_look_02_trench_1795548657275.jpg',
-    probeImage: '/src/assets/images/runway_look_02_trench_1795548657275.jpg',
+    image: asset('src/assets/images/runway_look_02_trench_1795548657275.jpg'),
+    probeImage: asset('src/assets/images/runway_look_02_trench_1795548657275.jpg'),
     alt: 'Образ 02: Бежевый тренч из габардина с поясом поверх тёмно-кофейного жилета из мериноса и графитовых фланелевых брюк.',
     items: [
       {
@@ -236,8 +238,8 @@ export const RUNWAY_LOOKS: RunwayLook[] = [
     title: 'Драпировка бургунди',
     subtitle: 'Тяжёлый шёлк по косой в сочетании с укороченным вечерним жакетом.',
     silhouetteNote: 'Выход 03 · Асимметричная спиральная драпировка и чёткие атласные лацканы.',
-    image: '/src/assets/images/runway_look_03_draped_silk_1795548659764.jpg',
-    probeImage: '/src/assets/images/runway_look_03_draped_silk_1795548659764.jpg',
+    image: asset('src/assets/images/runway_look_03_draped_silk_1795548659764.jpg'),
+    probeImage: asset('src/assets/images/runway_look_03_draped_silk_1795548659764.jpg'),
     alt: 'Образ 03: Укороченный чёрный жакет с атласными лацканами поверх драпированного шёлкового платья оттенка бургунди и замшевых слингбэков.',
     items: [
       {
@@ -324,8 +326,8 @@ export const RUNWAY_LOOKS: RunwayLook[] = [
     title: 'Тактильная овчина',
     subtitle: 'Укороченный объём дублёнки в контрасте с острой шерстяной плиссировкой.',
     silhouetteNote: 'Выход 04 · Насыщенная фактура эспрессо поверх белоснежного поплина.',
-    image: '/src/assets/images/runway_look_04_shearling_1795548658006.jpg',
-    probeImage: '/src/assets/images/runway_look_04_shearling_1795548658006.jpg',
+    image: asset('src/assets/images/runway_look_04_shearling_1795548658006.jpg'),
+    probeImage: asset('src/assets/images/runway_look_04_shearling_1795548658006.jpg'),
     alt: 'Образ 04: Укороченная дублёнка оттенка эспрессо поверх белой сорочки, плиссированная антрацитовая юбка макси и рыжие кожаные сапоги.',
     items: [
       {
@@ -417,8 +419,8 @@ export const RUNWAY_LOOKS: RunwayLook[] = [
     title: 'Вечерний ноктюрн',
     subtitle: 'Удлинённый однобортный смокинг, выстроенный для текучего вечернего силуэта.',
     silhouetteNote: 'Финальный выход · Острый лацкан поверх расстёгнутого шёлкового крепа.',
-    image: '/src/assets/images/runway_look_05_evening_suit_1795548662737.jpg',
-    probeImage: '/src/assets/images/runway_look_05_evening_suit_1795548662737.jpg',
+    image: asset('src/assets/images/runway_look_05_evening_suit_1795548662737.jpg'),
+    probeImage: asset('src/assets/images/runway_look_05_evening_suit_1795548662737.jpg'),
     alt: 'Образ 05: Чёрный смокинг с острыми лацканами поверх шёлковой рубашки оттенка слоновой кости, расклёшенные брюки и лаковые лоферы.',
     items: [
       {
